@@ -20,3 +20,61 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 35px;
+  font-size: 15px;
+}
+
+.notice {
+  color: green;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+p {
+  margin: 35px;
+}
+
+
+table {
+  display: table;
+  border-collapse: separate;
+}
+
+th, td {
+  display: table-cell;
+}
+
+td {
+  padding: 0 5px 5px;
+}
+
+
+h2 {
+  margin: 20px 0;
+}
+
+
+
+.error_messages {
+  width: 400px;
+  color: red;
+  padding-left: 15px;
+  background-color: #eee;
+}
+
+
+ul {
+  padding: 30px 50px;
+}
+
+label {
+  display: block;
+}
+
+
+.field, .action, .error_messages {
+  margin-bottom: 10px;
+}
