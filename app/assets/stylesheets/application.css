@@ -23,6 +23,12 @@
 body {
   margin: 35px;
   font-size: 15px;
+  color: #0b0c0c;
+  font-family: courier, arial, sans-serif;
+}
+
+a {
+  color: #0b0c0c;
 }
 
 .notice {
@@ -37,7 +43,6 @@ p {
   margin: 35px;
 }
 
-
 table {
   display: table;
   border-collapse: separate;
@@ -45,9 +50,6 @@ table {
 
 th, td {
   display: table-cell;
-}
-
-td {
   padding: 0 5px 5px;
 }
 
@@ -56,15 +58,12 @@ h2 {
   margin: 20px 0;
 }
 
-
-
 .error_messages {
   width: 400px;
   color: red;
   padding-left: 15px;
-  background-color: #eee;
+  background-color: #f3c3c3;
 }
-
 
 ul {
   padding: 30px 50px;
@@ -73,7 +72,6 @@ ul {
 label {
   display: block;
 }
-
 
 .field, .action, .error_messages {
   margin-bottom: 10px;

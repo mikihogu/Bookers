@@ -4,7 +4,7 @@
 
   <div class="error_messages">
     <% if @book.errors.any? %>
-      <%= @book.errors.count %> error occurred.
+      <%= @book.errors.count %> error occurred saving this book.
       <ul>
         <% @book.errors.full_messages.each do |message| %>
           <li><%= message %></li>
